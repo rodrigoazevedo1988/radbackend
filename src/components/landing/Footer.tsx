@@ -1,4 +1,5 @@
-import { Database, Github, Twitter } from "lucide-react";
+import { Database, Github, Twitter, MessageCircle } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   const footerLinks = {
@@ -112,8 +113,26 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* WhatsApp Button */}
+        <div className="mt-12 flex justify-center">
+          <Button
+            asChild
+            size="lg"
+            className="bg-[#25D366] hover:bg-[#20BA5A] text-white gap-2"
+          >
+            <a
+              href="https://wa.me/5511999999999"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MessageCircle className="w-5 h-5" />
+              Fale conosco no WhatsApp
+            </a>
+          </Button>
+        </div>
+
         {/* Bottom bar */}
-        <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="mt-8 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground text-center md:text-left">
             © 2025 RaDB. Open source under AGPL-3.0.
           </p>
