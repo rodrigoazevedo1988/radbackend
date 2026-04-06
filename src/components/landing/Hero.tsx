@@ -70,9 +70,11 @@ const Hero = () => {
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10 animate-fade-in-up"
             style={{ animationDelay: "0.3s" }}
           >
-            <Button variant="hero" size="xl">
-              <Rocket className="w-5 h-5" />
-              Começar Grátis
+            <Button variant="hero" size="xl" asChild>
+              <a href="https://radb.rsolutionsbr.com/register">
+                <Rocket className="w-5 h-5" />
+                Começar Grátis
+              </a>
             </Button>
             <Button variant="hero-outline" size="xl">
               <BookOpen className="w-5 h-5" />

@@ -120,8 +120,10 @@ const Pricing = () => {
                 </p>
               )}
 
-              <Button variant={plan.variant} className="w-full" size="lg">
-                {plan.cta}
+              <Button variant={plan.variant} className="w-full" size="lg" asChild>
+                <a href={plan.name === "Enterprise" ? "#contact" : "https://radb.rsolutionsbr.com/register"}>
+                  {plan.cta}
+                </a>
               </Button>
             </div>
           ))}

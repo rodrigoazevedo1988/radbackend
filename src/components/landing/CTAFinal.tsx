@@ -27,9 +27,11 @@ const CTAFinal = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
-            <Button variant="hero" size="xl" className="w-full sm:w-auto">
-              <Rocket className="w-5 h-5" />
-              Criar Conta Grátis
+            <Button variant="hero" size="xl" className="w-full sm:w-auto" asChild>
+              <a href="https://radb.rsolutionsbr.com/register">
+                <Rocket className="w-5 h-5" />
+                Criar Conta Grátis
+              </a>
             </Button>
             <Button variant="hero-outline" size="xl" className="w-full sm:w-auto">
               <Calendar className="w-5 h-5" />
