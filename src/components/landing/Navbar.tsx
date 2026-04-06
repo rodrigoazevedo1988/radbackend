@@ -57,8 +57,8 @@ const Navbar = () => {
             <Button variant="ghost" size="sm">
               Login
             </Button>
-            <Button variant="hero" size="sm">
-              Começar Grátis
+            <Button variant="hero" size="sm" asChild>
+              <a href="https://radb.rsolutionsbr.com/register">Começar Grátis</a>
             </Button>
           </div>
 
@@ -89,8 +89,8 @@ const Navbar = () => {
                 <Button variant="ghost" className="w-full">
                   Login
                 </Button>
-                <Button variant="hero" className="w-full">
-                  Começar Grátis
+                <Button variant="hero" className="w-full" asChild>
+                  <a href="https://radb.rsolutionsbr.com/register">Começar Grátis</a>
                 </Button>
               </div>
             </div>
