@@ -61,8 +61,8 @@ const Hero = () => {
             className="text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 animate-fade-in-up"
             style={{ animationDelay: "0.2s" }}
           >
-            Construa aplicações escaláveis sem depender de terceiros.
-            PostgreSQL, MinIO, Real-time e Functions rodando na sua infraestrutura.
+            Construa aplicações escaláveis com total independência e liberdade.
+            PostgreSQL, MinIO, Real-time e Functions rodando 100% na sua infraestrutura.
           </p>
 
           {/* CTA Buttons */}
